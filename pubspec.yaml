@@ -1,0 +1,130 @@
+name: osp
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  syncfusion_flutter_pdf: ^24.1.41
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  image_picker: ^1.1.2
+  file_picker: ^10.1.2
+  permission_handler: ^12.0.0+1
+  permission_handler_android: ^13.0.1
+  permission_handler_apple: ^9.4.7
+  permission_handler_platform_interface: ^4.3.0
+  permission_handler_windows: ^0.2.1
+  flutter_svg: ^2.0.7
+  pdf_image_renderer: ^1.0.1  
+  open_file: ^3.2.1  # تأكد من استخدام أحدث إصدار متوافق
+  flutter_pdfview: ^1.3.1
+  path_provider: ^2.0.15
+  # resume packages
+  gap: ^3.0.1
+  pdf: ^3.11.3
+  flutter_form_builder: ^10.0.1
+  printing:
+  image_pickers: ^2.0.6
+  image_editor_plus: ^1.0.3
+  # google_mlkit_text_recognition: ^0.15.0
+  flutter_tesseract_ocr: ^0.4.28
+  share_plus: ^10.1.4
+  gallery_saver_plus: ^3.2.4
+  dio: ^5.8.0+1
+  loading_indicator: ^3.1.1
+  flutter_localization: ^0.3.2
+  provider: ^6.1.4
+  supabase_flutter: ^2.8.4
+  get_it: ^8.0.3
+  flutter_bloc: ^9.1.0
+  photo_manager: ^3.6.4
+  filesystem_picker: ^4.1.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: 'assets/images/Osp logo.png'
+  adaptive_icon_foreground: 'assets/images/Osp logo.png'
+  adaptive_icon_background: "#ffffff"
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+dependency_overrides:
+  screenshot: ^3.0.0
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/Logo.png
+    - assets/images/Osp logo.png
+    - assets/images/BG.png
+    - assets/images/searchbutton.png
+    - assets/images/Add icon.png
+    - assets/images/settings.png
+    - assets/images/rightSide.png
+    - assets/images/leftSide.png
+    - assets/images/tape.png
+    - assets/images/back.png
+    - assets/images/Premium ad.png
+    - assets/images/ocr.png
+    - assets/images/cv.png
+    - assets/images/channel.png
+    - assets/images/scanner.png
+    - assets/images/tools.png
+    - assets/images/rotate.png
+    - assets/images/sign.png
+    - assets/images/fix.png
+    - assets/images/vertical.png
+    - assets/images/horizental.png
+    - assets/images/menu.png
+    - assets/images/watermark.png
+    - assets/images/split.png
+    - assets/images/merge.png
+    - assets/images/unlock.png
+    - assets/images/page-numbering.png
+    - assets/images/protect.png
+    - assets/images/edit.png
+    - assets/images/compress.png
+    - assets/images/orgnize.png
+    - assets/images/E2pdf.png
+    - assets/images/pdf2xcel.png
+    - assets/images/pdf2w.png
+    - assets/images/pic2pdf.png
+    - assets/images/P2pdf.png
+    - assets/images/pdf2P.png
+    - assets/images/searchable.png
+    - assets/images/w2pdf.png
+    - assets/images/pdf_2jpg.png
+    - assets/images/searchable.png
+    - assets/images/create.png
+    - assets/images/watermark.png
+    - assets/images/folder.png
+    - assets/images/No_files_Found.png
+    - assets/images/arrow.png
+    - assets/images/Rectangle 32.png
+    - assets/font/
+    - assets/icons/
+    - assets/tessdata_config.json
+    - assets/tessdata/ara.traineddata
+    - assets/tessdata/eng.traineddata
+    - assets/eng_tessdata/
+
+
+
+
+
+
+
